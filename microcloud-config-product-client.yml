@@ -14,7 +14,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver # 配置MySQL的驱动程序类
     url: jdbc:mysql://192.168.116.133:3306/springcloud?serverTimezone=GMT%2B8 # 数据库连接地址
     username: root # 数据库用户名
-    password: root1234% # 数据库连接密码
+    password: 123456 # 数据库连接密码
   application:
     name: microcloud-config-product-client
   profiles: dev
@@ -59,7 +59,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver # 配置MySQL的驱动程序类
     url: jdbc:mysql://192.168.116.133:3306/springcloud?serverTimezone=GMT%2B8 # 数据库连接地址
     username: root # 数据库用户名
-    password: root1234% # 数据库连接密码
+    password: 123456 # 数据库连接密码
   application:
     name: microcloud-config-product-client
   profiles: beta
