@@ -14,7 +14,7 @@ spring:
 eureka:
  client:
   service-url:
-    defaultZone: http://admin:enjoy@localhost:7001/eureka
+    defaultZone: http://admin:enjoy@localhost:7301/eureka
 ---
 server:
   port: 8202
@@ -27,4 +27,4 @@ spring:
 eureka:
  client:
   service-url:
-    defaultZone: http://admin:enjoy@localhost:7001/eureka
+    defaultZone: http://admin:enjoy@localhost:7301/eureka
