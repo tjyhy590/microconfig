@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: microconfig-config-client
+      name: microconfig-test-client
 
 eureka:
  client:
@@ -22,7 +22,7 @@ server:
 spring:
   profiles: beta
   application:
-      name: microconfig-config-client
+      name: microconfig-test-client
 
 eureka:
  client:
