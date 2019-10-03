@@ -20,6 +20,7 @@ eureka:
 info:
   app.name: microcloud-config-client-dev
   company.name: enjoy
+
 ---
 server:
   port: 8202
@@ -38,3 +39,4 @@ eureka:
 info:
   app.name: microcloud-config-client-dev
   company.name: enjoy
+
